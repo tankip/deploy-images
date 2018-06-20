@@ -1,0 +1,22 @@
+{
+    "name": "deploy-images",
+    "version": "1.0.0",
+    "description": "used to deploy already build images to docker",
+    "main": "server.js",
+    "scripts": {
+      "test": "npm run test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "deploy-images"
+    },
+    "keywords": [
+      "deploy",
+      "docker"
+    ],
+    "author": "rtankip@gmail.com",
+    "license": "ISC",
+    "dependencies": {
+      "hapi": "^16.1.0"
+    }
+  }
